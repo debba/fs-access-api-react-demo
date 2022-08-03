@@ -20,8 +20,14 @@ const EditFile: React.FC<{ file: File, onClose: () => void }> = ({file, onClose}
         }
     };
 
-    const saveFile = () => {
-        alert('SAVE FILE!');
+    const saveFile = async() => {
+        const newHandle = await window.showSaveFilePicker({
+            suggestedName: file.name
+        });
+        const writableStream = await newHandle.createWritable();
+        await writableStream.write(fileContent);
+        await writableStream.close();
+        onClose();
     };
 
     return (
@@ -53,7 +59,7 @@ const EditFile: React.FC<{ file: File, onClose: () => void }> = ({file, onClose}
                         onClick={e => saveFile() }
                         className="inline-flex items-center px-2.5 py-1.5 text-xs font-medium rounded shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     >
-                        Save
+                        Save and close.
                     </button>
                 </div>
             </div>

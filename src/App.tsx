@@ -19,7 +19,7 @@ function App() {
     )
 
     useEffect(() => {
-        if (!('showOpenFilePicker' in window)) {
+        if (!('showOpenFilePicker' in window) || !('showSaveFilePicker' in window)) {
             setFileAccessApiAvailable(false);
         }
     }, [])
@@ -38,9 +38,9 @@ function App() {
                         }
                     </FileContext.Provider>
                 ) : (
-                    <div className="flex items-center space-x-6">
-                        <div className="flex-1">
-                            <p className="text-sm text-gray-600">
+                    <div className="flex items-center space-x-6 mt-2">
+                        <div className="flex-1 px-2">
+                            <p className="text-lg text-gray-600 text-center">
                                 File access API is not available in this browser.
                             </p>
                         </div>
