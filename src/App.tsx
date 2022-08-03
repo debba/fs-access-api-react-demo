@@ -50,7 +50,7 @@ function App() {
                                 File system access API is not available in this browser.
                             </p>
                             <p className="text-center text-gray-600">
-                                You can check <strong>browser compatibility</strong> <a className="text-indigo-600 underline"
+                                You can check <strong>browser compatibility</strong> <a target={"_blank"} className="text-indigo-600 underline"
                                 href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API#browser_compatibility">
                                 here
                             </a>
