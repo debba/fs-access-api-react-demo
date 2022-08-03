@@ -1,5 +1,4 @@
 import React, {createContext, useEffect, useMemo, useState} from 'react';
-import './App.css';
 import SelectFile from "./SelectFile";
 import EditFile from "./EditFile";
 
@@ -42,7 +41,7 @@ function App() {
                     <div className="flex items-center space-x-6">
                         <div className="flex-1">
                             <p className="text-sm text-gray-600">
-                                File access API is not available
+                                File access API is not available in this browser.
                             </p>
                         </div>
                     </div>
