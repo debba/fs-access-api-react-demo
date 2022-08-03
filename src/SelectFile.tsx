@@ -25,6 +25,7 @@ const  SelectFile : React.FC<{ onSelectFile: (file: File) => void }> = ({onSelec
     return (
 
         <div className="text-center">
+            <h3 className="text-center font-medium text-2xl text-gray-900 my-2">FileSystem Access API Demo with React</h3>
             <svg
                 className="mx-auto h-12 w-12 text-gray-400"
                 fill="none"

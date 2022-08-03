@@ -22,7 +22,13 @@ function App() {
         if (!('showOpenFilePicker' in window) || !('showSaveFilePicker' in window)) {
             setFileAccessApiAvailable(false);
         }
-    }, [])
+    }, []);
+
+    useEffect(() => {
+        if (file){
+            document.title = 'Current file opened: '+file.name;
+        }
+    }, [file]);
 
 
     return (
