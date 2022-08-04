@@ -50,8 +50,10 @@ function App() {
                                 File system access API is not available in this browser.
                             </p>
                             <p className="text-center text-gray-600">
-                                You can check <strong>browser compatibility</strong> <a target="_blank" className="text-indigo-600 underline" rel="noreferrer"
-                                href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API#browser_compatibility">
+                                You can check <strong>browser compatibility</strong> <a target="_blank"
+                                                                                        className="text-indigo-600 underline"
+                                                                                        rel="noreferrer"
+                                                                                        href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API#browser_compatibility">
                                 here
                             </a>
                             </p>
@@ -62,8 +64,12 @@ function App() {
 
             <footer
                 className="mt-auto bg-white rounded-lg shadow md:flex md:items-end md:p-6">
-    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a rel="noreferrer" target="_blank" href="https://www.debbaweb.it/"
-                                                                                        className="hover:underline">Andrea Debernardi™</a>. All Rights Reserved.
+    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a rel="noreferrer" target="_blank"
+                                                                                        href="https://www.debbaweb.it/"
+                                                                                        className="hover:underline">Andrea Debernardi™</a>. All Rights Reserved. <a href="https://github.com/debba/fs-access-api-react-demo">
+            <img className={"inline"} alt="GitHub stars" src="https://img.shields.io/github/stars/debba/fs-access-api-react-demo?style=social" />
+            <img className={"inline ml-2"} alt="Github last commit" src="https://img.shields.io/github/last-commit/debba/fs-access-api-react-demo" />
+        </a>
     </span>
             </footer>
 
