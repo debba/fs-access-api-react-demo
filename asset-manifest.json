@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fs-access-api-react-demo/static/css/main.138426f7.css",
+    "main.js": "/fs-access-api-react-demo/static/js/main.e0e649ba.js",
+    "static/js/787.818336ab.chunk.js": "/fs-access-api-react-demo/static/js/787.818336ab.chunk.js",
+    "index.html": "/fs-access-api-react-demo/index.html",
+    "main.138426f7.css.map": "/fs-access-api-react-demo/static/css/main.138426f7.css.map",
+    "main.e0e649ba.js.map": "/fs-access-api-react-demo/static/js/main.e0e649ba.js.map",
+    "787.818336ab.chunk.js.map": "/fs-access-api-react-demo/static/js/787.818336ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.138426f7.css",
+    "static/js/main.e0e649ba.js"
+  ]
+}
